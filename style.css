@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #03060A;
+    margin: 20px;
+}
+
+hr {
+    width: 500px;
+    height: 2px;
+}
+
+
+/* Header Section*/
+.header {
+    /* Display, Positioning & Box Model */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+
+    /* Colors */
+    background-color: #071223;
+
+    /* Padding, Margin & Borders */
+    padding-top: 20px;
+    margin-bottom: 3px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header > h1 {
+    /* Text Modification */
+    text-align: center;
+    color: #C49792;
+    font-size: 56px;
+}
+
+/* psuedo links */
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: purple;
+
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red;
+
+}
+
+/* Navigation Bar */
+.nav > h2 {
+    text-align: center;
+    color: #E5F7E1;
+}
+
+.nav > ul {
+    padding: 0
+}
+
+.nav > ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav > ul > li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+/* Main Section */
+.whoAmI, .specialQualities {
+    padding-top: 80px;
+    background-color: #100F1C;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-bottom: 3px;
+}
+
+.whoAmI , .backgroundStory .specialQualities, .contact > h2{
+    margin: 0. auto;
+    text-align: center;
+    color: white;
+}
+
+.whoAmI, .backgroundStory, .specialQualities > p {
+    font-size: 20px;
+    color: #C49792;
+}
+
+.backgroundStory {
+    padding-top: 80px;
+    background-color: #071223;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+/* Footer */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
