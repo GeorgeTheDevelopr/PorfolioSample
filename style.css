@@ -91,8 +91,8 @@ a:active {
     margin-bottom: 3px;
 }
 
-.whoAmI , .backgroundStory .specialQualities, .contact > h2{
-    margin: 0. auto;
+.whoAmI > h2, .backgroundStory > h2, .specialQualities > h2, .contact > h2{
+    margin: 0;
     text-align: center;
     color: white;
 }
